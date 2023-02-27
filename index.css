@@ -147,7 +147,7 @@ img {
 /* For the mobile view */
 @media screen and (max-width: 700px) {
   h1 {
-    font-size: large;
+    font-size: larger;
   }
   h2 {
     font-size: medium;
