@@ -92,6 +92,7 @@ footer {
     rgb(0, 0, 0, 0.5) 50%
   );
   color: auto;
+  margin-bottom: -5%;
 }
 li {
   display: flex;
