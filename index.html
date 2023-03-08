@@ -48,8 +48,8 @@
   </head>
   <body>
     <header class="head">
-      <h1 style="font-family: 'Sacramento', cursive; font-weight: bolder;">Hi, I'm Izuchukwu👋</h1>
-      <h2>a <u>pro</u>grammer.</h2>
+      <h1 id="firstHead" style="font-family: 'Sacramento', cursive; font-weight: bolder;">Hi, I'm Izuchukwu👋</h1>
+      <h2 class="pro">a <u>pro</u>grammer.</h2>
     </header>
     <section>
       <div class="body">
@@ -330,5 +330,10 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.0.js"></script>
+    <script>  
+        $("#firstHead").text("Hi, I'm Izuchukwu👋").fadeOut(0).slideDown(3000);
+    </script>
+    <script>$(".pro").delay(3000).fadeOut().fadeIn();</script>
   </body>
 </html>
