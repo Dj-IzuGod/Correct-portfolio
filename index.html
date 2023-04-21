@@ -332,8 +332,10 @@
     <script src="js/main.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script>  
-        $("#firstHead").text("Hi, I'm Izuchukwu👋").fadeOut(0).slideDown(3000);
-    </script>
-    <script>$(".pro").delay(3000).fadeOut().fadeIn();</script>
+    $(window).on("load", function(){
+       $("#firstHead").text("Hi, I'm Izuchukwu👋").fadeOut(0).slideDown(3000);
+        $(".pro").delay(3000).fadeOut().fadeIn();
+    })
+        </script>
   </body>
 </html>
